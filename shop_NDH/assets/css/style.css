@@ -1,0 +1,412 @@
+/* reset css  */
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:  Helvetica, Arial, sans-serif;
+}
+ /* header  */
+.header {
+    height: 50px;
+    background-color: lightseagreen;
+    width:100%;
+    position:fixed;
+    z-index: 1;
+    top:0px;
+}
+
+.nav {
+    width:700px;
+}
+.nav li {
+   display:inline-block;
+}
+
+.nav li a {
+    text-decoration: none;
+    line-height: 50px;
+    padding:0 15px;
+    font-size: 20px;
+    display:block;
+}
+
+.nav >li >a {
+    text-transform: uppercase;
+    color:#fff;
+}
+.nav .subnav > li:hover,
+.nav >li:hover >a {
+    color: #000;
+    background-color: burlywood;
+}
+
+.nav .subnav {
+    display: none;
+    position:absolute;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8 );
+}
+
+
+.subnav li {
+    display:block;
+    width:165px;
+    top:0;
+    left:0;
+    height: 42px;
+    line-height: 42px;
+    background-color: aliceblue;
+}
+
+.subnav a {
+    color:#000;
+}
+
+.nav li:hover .subnav {
+    display:block;
+}
+
+.ti-angle-down {
+    font-size :14px;
+}
+
+.header-search {
+    position:absolute;
+    top:12px;
+    right:10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.ti-search {
+    position:absolute;
+    top:12px;
+    right:265px;
+    background-color: coral;
+    padding:5px;
+    border-radius: 5px;
+    font-size:18px;
+}
+
+.ti-search:hover {
+    background-color: cornsilk;
+    cursor: pointer;
+}
+
+
+/* slider  */
+.slider {
+    background: url('/assets/img/slider/slider1.webp');
+    height:1000px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-form-big {
+    height: 500px;
+    width:400px;
+    margin-top: 150px;
+    margin-left: 150px;
+    display:inline-block;
+    border-radius: 20px;
+    background-color: azure;
+}
+
+.slider-form-small {
+    height:400px;
+    width:300px;
+    background-color:coral;
+    margin-top:50px;
+    margin-left:50px;
+    border-radius: 15px;
+}
+
+.slider-form-name,
+.form-name,
+.slider-form-pass,
+.form-pass {
+    margin-left:20px;
+    font-size:18px;
+}
+
+.slider-form-name,
+.slider-form-pass {
+    padding-top:30px;
+}
+
+.form-name,
+.form-pass {
+    margin-top:10px;
+    height:30px;
+    width:250px;
+}
+
+.DN {
+    background-color:red;
+    color:#fff;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left:100px;
+    border-radius: 5px;
+    border:none;
+    padding:6px;
+}
+
+.DN:hover {
+    background-color: darkgray;
+    color:#000;
+    cursor: pointer;
+}
+
+.forget {
+    color:#000;
+}
+
+/* content  */
+.content {
+    height:3450px;
+    background-color: darkkhaki;
+}
+/* introduce-section  */
+.introduce-section {
+    height:450px;
+    background-color:aquamarine;
+}
+
+.introduce-small {
+    height:450px;
+    margin:0 300px;
+    background-color: #fff;
+}
+
+.introduce-heading {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.introduce-heading,
+.introduce-text-1,
+.introduce-text-2 {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.introduce-text-1,
+.introduce-text-2 {
+    font-size: 30px;
+}
+
+/* team-section  */
+.team-section {
+    height: 900px;
+    background-color: coral;
+}
+
+.team-heading {
+    font-size: 60px;
+    text-align: center;
+    background-color:goldenrod;
+    height:120px;
+    line-height:120px;
+}
+
+.img-avt {
+    width:300px;
+    height:350px;
+}
+
+.img-avt:hover {
+    opacity:0.9;
+    cursor: pointer;
+} 
+
+.team-item {
+    width:33%;
+    display:inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-text-name {
+    font-size: 30px;  
+}
+
+.team-text-1,
+.team-text-2 {
+    font-size: 24px;
+}
+
+.img-star {
+   width:500px;
+  margin-left: 500px;
+  margin-top:50px;
+}
+
+/* shop  */
+.shop-section {
+    height: 1100px;
+    background-color: aliceblue;
+}
+
+.shop-heading {
+    height:100px;
+    width: 100%;
+    background-color:cornflowerblue;
+    font-size: 70px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.shop-pet {
+    height:80px;
+    width: 400px;
+    background-color:deeppink;
+    font-size: 60px;
+    text-align: center;
+    line-height: 80px;
+    color:#fff;
+    margin:50px 550px;
+}
+
+.shop-list {
+    height:600px;
+    width: 100%;
+    background-color: navajowhite;
+}
+
+.img-pet {
+    width: 250px;
+    height:300px;
+}
+
+.shop-item {
+    display:inline-block;
+    width:19%;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+}
+
+.name-pet,
+.pet-text-1,
+.pet-text-2 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.name-pet {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.text-item-pet {
+    background-color: aliceblue;
+    width:250px;
+    margin-left: 19px;
+    margin-top:-3px;
+    padding-bottom: 40px;
+}
+
+.buy-pet {
+    padding: 6px 12px;
+    font-size: 18px;
+    border:none;
+    border-radius: 6px;
+    background-color:crimson;
+    color:azure;
+    margin-top: 28px;
+}
+
+.buy-pet:hover {
+   background-color: coral;
+   color:#000;
+}
+
+/* service  */
+.service-section {
+    height: 500px;
+    margin-top:500px;
+    background-color: cornflowerblue;
+}
+
+.service-heading {
+    height:100px;
+    width: 100%;
+    background-color:darkturquoise;
+    font-size: 70px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.service-form {
+    height:400px;
+    width:1000px;
+    margin: 0 250px;
+    background-color: aliceblue;
+}
+
+.service-text-1 {
+    padding-top: 50px;
+}
+
+.service-text {
+    padding-left: 150px;
+    font-size: 40px;
+}
+
+.service-text-2,
+.service-text-3,
+.service-text-4 {
+    padding-top: 20px;
+}
+
+.service-name {
+    height:30px;
+    width: 400px;
+}
+
+.service-name1 {
+    margin-left: 70px;
+}
+
+.service-address1 {
+    margin-left: 18px;
+}
+
+.service-dv1 {
+    margin-left: 14px;
+}
+
+/* footer  */
+.footer {
+    height:300px;
+    background-color: darkblue;
+}
+
+
+.footer-item {
+    width:32%;
+    display:inline-block;
+    padding-left:200px;
+    margin-top:50px;
+    color:#fff;
+}
+
+.footer-heading {
+    font-size: 30px;
+}
+
+.footer-text-1 {
+    font-size : 20px;
+}
+
+.footer a {
+    color:#fff;
+}
