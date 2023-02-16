@@ -1,0 +1,85 @@
+/* reset css  */
+* {
+    padding : 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* slider */
+.slider {
+    background-image: url('https://apolyorg.files.wordpress.com/2019/04/xbanner-trang-lien-he-moi.jpg.pagespeed.ic_.fqvwhe7pcx.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+    background-size:cover;
+}
+
+/* header  */
+.header {
+    height:40px;
+    width: 100%;
+    background-color:orangered;
+}
+
+.header .nav li {
+    display:inline-block;
+}
+
+.header a {
+    padding: 0 20px;
+}
+
+.nav {
+    text-align: center;
+    color:#fff;
+    line-height:40px;
+}
+
+.nav li a {
+    line-height:40px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.nav li:hover a {
+    color:yellow;
+    background-color: silver;
+}
+
+/* content  */
+.content {
+    width:25%;
+    height:400px;
+    float:right;
+}
+
+.content .content-item {
+    min-height:400px;
+    background-color:lightgray;
+    font-size: 28px;
+}
+
+.content .content-item ul {
+    margin-left: 90px;
+    padding-top: 40px;
+}
+
+/* footer  */
+.footer {
+    width:100%;
+    height: 50px;
+    background-color:lightcyan;
+    margin-top: 400px;
+    text-transform: uppercase;
+    border-top:5px double orangered;
+    font-variant:small-caps;
+}
+
+.footer .footer-item {
+    text-align: center;
+    line-height: 50px;
+}
